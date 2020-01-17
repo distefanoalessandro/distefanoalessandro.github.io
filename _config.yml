@@ -1,2 +1,4 @@
 name: Alessandro Di Stefano, PhD
 markdown: kramdown
+
+theme: jekyll-theme-minimal
