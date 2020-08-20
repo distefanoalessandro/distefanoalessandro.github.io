@@ -25,8 +25,8 @@ h1 {
 }
 
 p {
-    font-size: 1.1em;
-    line-height: 1.0em;
+    font-size: 1.0em;
+    line-height: 0.9em;
     color: #333;
     text-align: justify;
 }
@@ -37,7 +37,7 @@ footer {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
 ul.posts li {
