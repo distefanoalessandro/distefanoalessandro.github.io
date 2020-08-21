@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="description" content="Personal website"/>
+    <meta name="keywords" content="Alessandro Di Stefano, Teesside University, UK"/>
+    <meta name="author" content="Alessandro Di Stefano"/>
+		
 		<title> Alessandro Di Stefano 
 		Lecturer in Computer Science
 		School of Computing, Engineering & Digital Technologies, Teesside University, Middlesbrough, UK
@@ -8,19 +18,38 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/"><span style="color: darkblue">Home</span></a></li>
-        		<li><a href="/Publications"><span style="color: darkblue">Publications</span></a></li>
-			<li><a href="/Talks"><span style="color: darkblue">Talks</span></a></li>
-			<li><a href="/Research"><span style="color: darkblue">Research</span></a></li>
-			<li><a href="/Teaching"><span style="color: darkblue">Teaching</span></a></li>
-			<li><a href="/CV"><span style="color: darkblue">CV</span></a></li>
-			<li><a href="/People"><span style="color: darkblue">People</span></a></li>
-			<li><a href="/Contact"><span style="color: darkblue">Contact</span></a></li>
-    		</ul>
-		</nav>
+	<body data-spy="scroll" data-target=".navbar">
+
+    <!-- id to get the highlighting of the home in navbar working correctly -->
+    <div id="home"></div>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+        <!-- This is the button for mobile -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+           <li><a href="/"><span style="color: blue">Home</span></a></li>
+        		<li><a href="/Publications"><span style="color: blue">Publications</span></a></li>
+			<li><a href="/Talks"><span style="color: blue">Talks</span></a></li>
+			<li><a href="/Research"><span style="color: blue">Research</span></a></li>
+			<li><a href="/Teaching"><span style="color: blue">Teaching</span></a></li>
+			<li><a href="/CV"><span style="color: blue">CV</span></a></li>
+			<li><a href="/People"><span style="color: blue">People</span></a></li>
+			<li><a href="/Contact"><span style="color: blue">Contact</span></a></li>
+	  </ul>
+        </div> <!--/.nav-collapse -->
+      </div>
+    </nav>
+
 		<div class="container">
     		<div class="blurb">
 			<img style="float: left; margin-right: 1.5em" src="https://raw.githubusercontent.com/distefanoalessandro/distefanoalessandro.github.io/master/me.jpg" width="23%" />	
@@ -69,13 +98,12 @@
 		</div><!-- /.container -->
 		<footer>
     		<ul>
-        		<li><a href="mailto:distefano.alessandro@gmail.com"><span style="color: darkblue">Email</span></a></li>
-			<li><a href="https://scholar.google.it/citations?user=e91gEy4AAAAJ&hl=it"><span style="color: darkblue">Google Scholar</span></a></li>
-			<li><a href="https://www.researchgate.net/profile/Alessandro_Di_Stefano3"><span style="color: darkblue">ResearchGate</span></a></li>
-			<li><a href="https://github.com/distefanoalessandro"><span style="color: darkblue">GitHub</span></a></li>
-			<li><a href="https://www.linkedin.com/in/alessandro-di-stefano-8b887152/"><span style="color: darkblue">LinkedIn</span></a></li>
-			<li><a href="https://twitter.com/di_stefano_ale"><span style="color: darkblue">Twitter</span></a></li>
-			<li><a href="https://www.facebook.com/alessandro.distefano.961993"><span style="color: darkblue">Facebook</span></a></li>
+        		  <a href="#" onmouseover="this.href=B7D18E8F9('znvygb1t2nagvpuv3dzhy2np2hx');" title="E-mail"><i class="fa fa-2x fa-envelope"></i></a>
+                           <a href="https://scholar.google.it/citations?user=e91gEy4AAAAJ&hl=it" title="Google Scholar" target="_blank"><i class="ai ai-2x ai-google-scholar"></i></a>
+                        <a href="https://www.researchgate.net/profile/Alessandro_Di_Stefano3" title="ResearchGate" target="_blank"><i class="ai ai-2x ai-google-scholar"></i></a>
+			<a href="https://github.com/GianniAntichi" title="GitHub" target="_blank"><i class="fa fa-2x fa-github"></i></a>
+			    <a href=""https://www.linkedin.com/in/alessandro-di-stefano-8b887152/" title="LinkedIn" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+                             <a href="https://twitter.com/di_stefano_ale" title="Twitter" target="_blank"><i class="fa fa-2x fa-twitter"></i></a>
 			</ul>
 		</footer>
 	</body>
