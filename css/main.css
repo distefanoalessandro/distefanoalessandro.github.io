@@ -22,7 +22,7 @@ a:hover {
 h1 {
     font-size: 2.7em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';'Questrial';
-    line-height: 1.1em;
+    line-height: 1.2em;
 }
 
 p {
@@ -43,7 +43,7 @@ nav {
 
 ul.posts { 
     margin: 20px auto 40px; 
-    font-size: 1.2em;
+    font-size: 1.15em;
 }
 
 ul.posts li {
